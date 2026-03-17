@@ -26,8 +26,8 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "Implemented a predictive machine learning model for temperature forecast in turbines",
-    "Developed a dashboard for real-time operational data analysis with PI System and Python",
+    "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
+    "Designed internal CLI tool adopted by 200+ teams",
     "\n"
   ]
 }];
@@ -73,7 +73,7 @@ export function ExperienceSection() {
                   <ul className="space-y-1">
                     {exp.results.map((r, j) =>
                   <li key={j} className="text-muted-foreground">
-                        {r.trim() && <span className="text-terminal mr-2">→</span>}
+                        <span className="text-terminal mr-2">→</span>
                         {r}
                       </li>
                   )}
