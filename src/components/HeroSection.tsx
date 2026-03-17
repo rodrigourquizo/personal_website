@@ -14,28 +14,28 @@ export function HeroSection() {
           <div className="flex items-center gap-3 mb-6">
             <div className="h-2.5 w-2.5 rounded-full bg-primary pulse-dot" />
             <span className="text-xs text-muted-foreground">
-              Available
-            </span>
+</span>
           </div>
 
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
-            Rodrigo Urquizo
+            Alex Chen
           </h1>
           <p className="text-lg text-terminal mb-6">
-            AI Engineer
+            Senior Software Engineer
           </p>
           <p className="text-sm text-muted-foreground max-w-lg leading-relaxed">
             Building scalable distributed systems and developer tools.
-            Previously at <span className="text-foreground">Enel</span> and{" "}
-            <span className="text-foreground">NTT DATA</span>.
+            Previously at <span className="text-foreground">Google</span>,{" "}
+            <span className="text-foreground">Stripe</span>, and{" "}
+            <span className="text-foreground">Vercel</span>.
           </p>
 
           <div className="mt-8 flex items-center gap-4 text-xs text-muted-foreground">
-            <a href="https://github.com/rodrigourquizo" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">https://github.com/rodrigourquizo</a>
+            <span>github.com/alexchen</span>
             <span className="text-border">|</span>
-            <span>alex@chen.dev</span>
+            <span>rodhub09@gmail.com</span>
             <span className="text-border">|</span>
-            <span>San Francisco, CA</span>
+            <span>Lima, Peru</span>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ export function HeroSection() {
           
           <Avatar className="h-32 w-32 border-2 border-border glow-terminal">
             <AvatarImage src="/placeholder.svg" alt="Profile photo" />
-            <AvatarFallback className="text-2xl font-bold text-terminal bg-secondary">RU</AvatarFallback>
+            <AvatarFallback className="text-2xl font-bold text-terminal bg-secondary">AC</AvatarFallback>
           </Avatar>
         </motion.div>
       </motion.div>
