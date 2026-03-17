@@ -6,32 +6,30 @@ const experience = [
   role: "AI Engineer",
   company: "Attach Group",
   results: [
-  "Reduced build times by 60% across the platform",
-  "Led migration from REST to tRPC, improving DX for 50+ engineers",
-  "Shipped Edge Middleware v2, adopted by 12K+ projects"]
-
+    "Implemented code review in CI/CD pipelines using Vertex AI",
+    " ",
+    "\n"
+  ]
 },
 {
   period: "2025 — 2026",
   role: "Software Engineer Intern",
   company: "NTT Data",
   results: [
-    "Built real-time fraud detection pipeline processing 10M events/day",
-    "→Developed an MCP for Jira integration with LLMs",
-    "\n"]
-
+    "Integrated an AI agent with Jira using Azure OpenAI and LangChain for task management automation",
+    "Reduced false-positive rate by 35% with ML-based scoring",
+    "Mentored 4 junior engineers through promotion cycles"
+  ]
 },
 {
   period: "2024 — 2025",
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "→Implemented a predictive machine learning model for temperature forecast in turbines",
-    "→Developed a dashboard for real-time operational data analysis with PI System and Python",
-    "→Implemented automated code review in GitLab repositories CI/CD pipelines using Vertex AI",
-    "→Optimized GKE resources using autoscaling strategies ",
-    "Implemented automated code review and unit test generation in GitLab CI/CD pipelines using Vertex AI"]
-
+    "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
+    "Designed internal CLI tool adopted by 200+ teams",
+    "\n"
+  ]
 }];
 
 
@@ -74,8 +72,8 @@ export function ExperienceSection() {
                 <td className="py-4 align-top">
                   <ul className="space-y-1">
                     {exp.results.map((r, j) =>
-                  <li key={j} className="text-muted-foreground bg-primary-foreground">
-                        <span className="text-terminal mr-2"></span>
+                  <li key={j} className="text-muted-foreground">
+                        <span className="text-terminal mr-2">→</span>
                         {r}
                       </li>
                   )}
