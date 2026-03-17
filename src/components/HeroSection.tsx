@@ -8,12 +8,13 @@ export function HeroSection() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="flex items-start justify-between gap-8"
-      >
+        className="flex items-start justify-between gap-8">
+        
         <div className="flex-1">
           <div className="flex items-center gap-3 mb-6">
             <div className="h-2.5 w-2.5 rounded-full bg-primary pulse-dot" />
-            <span className="text-xs text-muted-foreground">Available for hire</span>
+            <span className="text-xs text-muted-foreground">
+</span>
           </div>
 
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
@@ -38,18 +39,17 @@ export function HeroSection() {
           </div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, delay: 0.15 }}
-          className="shrink-0"
-        >
+        <motion.div initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4, delay: 0.15 }}
+        className="shrink-0">
+          
           <Avatar className="h-32 w-32 border-2 border-border glow-terminal">
             <AvatarImage src="/placeholder.svg" alt="Profile photo" />
             <AvatarFallback className="text-2xl font-bold text-terminal bg-secondary">AC</AvatarFallback>
           </Avatar>
         </motion.div>
       </motion.div>
-    </section>
-  );
+    </section>);
+
 }
