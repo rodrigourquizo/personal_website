@@ -31,7 +31,7 @@ export function HeroSection() {
           </p>
 
           <div className="mt-8 flex items-center gap-4 text-xs text-muted-foreground">
-            <span>https://github.com/rodrigourquizo</span>
+            <a href="https://github.com/rodrigourquizo" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">https://github.com/rodrigourquizo</a>
             <span className="text-border">|</span>
             <span>alex@chen.dev</span>
             <span className="text-border">|</span>
