@@ -55,7 +55,7 @@ export function HeroSection() {
         transition={{ duration: 0.4, delay: 0.15 }}
         className="shrink-0">
           
-          <Avatar className="h-40 w-40 border-2 border-border glow-terminal">
+          <Avatar className="h-48 w-48 border-2 border-border glow-terminal -ml-4">
             <AvatarImage src="/placeholder.svg" alt="Profile photo" />
             <AvatarFallback className="text-2xl font-bold text-terminal bg-secondary">RU</AvatarFallback>
           </Avatar>
