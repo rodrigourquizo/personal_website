@@ -26,8 +26,8 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
-    "Designed internal CLI tool adopted by 200+ teams",
+    "Implemented a predictive machine learning model for temperature forecast in turbines",
+    "Developed a dashboard for real-time operational data analysis with PI System and Python",
     "\n"
   ]
 }];
