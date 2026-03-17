@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
-    period: "2022 — Present",
-    role: "Senior Software Engineer",
-    company: "Vercel",
+    period: "2026 — Present",
+    role: "AI Engineer",
+    company: "Attach Group",
     results: [
       "Reduced build times by 60% across the platform",
       "Led migration from REST to tRPC, improving DX for 50+ engineers",
@@ -12,9 +12,9 @@ const experience = [
     ],
   },
   {
-    period: "2019 — 2022",
-    role: "Software Engineer II",
-    company: "Stripe",
+    period: "2025 — 2026",
+    role: "Software Engineer Intern",
+    company: "NTT DATA",
     results: [
       "Built real-time fraud detection pipeline processing 10M events/day",
       "Reduced false-positive rate by 35% with ML-based scoring",
@@ -22,9 +22,9 @@ const experience = [
     ],
   },
   {
-    period: "2017 — 2019",
-    role: "Software Engineer",
-    company: "Google",
+    period: "2024 - 2025",
+    role: "Python Developer Intern",
+    company: "Enel",
     results: [
       "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
       "Designed internal CLI tool adopted by 200+ teams",
