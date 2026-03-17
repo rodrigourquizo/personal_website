@@ -31,12 +31,22 @@ export function HeroSection() {
             <span className="text-foreground">NTT DATA</span>.
           </p>
 
-          <div className="mt-8 flex items-center gap-4 text-xs text-muted-foreground">
-            <a href="https://github.com/rodrigourquizo" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">https://github.com/rodrigourquizo</a>
+          <div className="mt-8 flex items-center gap-4 text-muted-foreground">
+            <div className="flex items-center gap-3">
+              <a href="https://github.com/rodrigourquizo" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
+                <Github size={18} />
+              </a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
+                <Linkedin size={18} />
+              </a>
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
+                <Instagram size={18} />
+              </a>
+            </div>
             <span className="text-border">|</span>
-            <span>rodhub09@gmail.com</span>
+            <span className="text-xs">rodhub09@gmail.com</span>
             <span className="text-border">|</span>
-            <span>Lima, Peru</span>
+            <span className="text-xs">Lima, Peru</span>
           </div>
         </div>
 
