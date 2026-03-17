@@ -17,8 +17,8 @@ const experience = [
   company: "NTT Data",
   results: [
     "Integrated an AI agent with Jira using Azure OpenAI and LangChain for task management automation",
-    "Reduced false-positive rate by 35% with ML-based scoring",
-    "Mentored 4 junior engineers through promotion cycles"
+    "Developed an MCP for Jira integration with LLMs",
+    "\n"
   ]
 },
 {
