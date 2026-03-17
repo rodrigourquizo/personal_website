@@ -6,30 +6,30 @@ const experience = [
   role: "AI Engineer",
   company: "Attach Group",
   results: [
-  "Reduced build times by 60% across the platform",
-  "Led migration from REST to tRPC, improving DX for 50+ engineers",
-  "Shipped Edge Middleware v2, adopted by 12K+ projects"]
-
+    "Implemented code review in CI/CD pipelines using Vertex AI",
+    " ",
+    "\n"
+  ]
 },
 {
   period: "2025 — 2026",
   role: "Software Engineer Intern",
   company: "NTT Data",
   results: [
-  "Built real-time fraud detection pipeline processing 10M events/day",
-  "Reduced false-positive rate by 35% with ML-based scoring",
-  "Mentored 4 junior engineers through promotion cycles"]
-
+    "Integrated an AI agent with Jira using Azure OpenAI and LangChain for task management automation",
+    "Reduced false-positive rate by 35% with ML-based scoring",
+    "Mentored 4 junior engineers through promotion cycles"
+  ]
 },
 {
   period: "2024 — 2025",
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-  "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
-  "Designed internal CLI tool adopted by 200+ teams",
-  "Published 2 papers on distributed consensus optimization"]
-
+    "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
+    "Designed internal CLI tool adopted by 200+ teams",
+    "\n"
+  ]
 }];
 
 
@@ -73,7 +73,7 @@ export function ExperienceSection() {
                   <ul className="space-y-1">
                     {exp.results.map((r, j) =>
                   <li key={j} className="text-muted-foreground">
-                        <span className="text-terminal mr-2"></span>
+                        <span className="text-terminal mr-2">→</span>
                         {r}
                       </li>
                   )}
