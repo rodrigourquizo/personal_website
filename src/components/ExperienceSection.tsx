@@ -16,9 +16,9 @@ const experience = [
   role: "Software Engineer Intern",
   company: "NTT Data",
   results: [
-  "Built real-time fraud detection pipeline processing 10M events/day",
-  "Reduced false-positive rate by 35% with ML-based scoring",
-  "Mentored 4 junior engineers through promotion cycles"]
+    "Built real-time fraud detection pipeline processing 10M events/day",
+    "→Developed an MCP for Jira integration with LLMs",
+    "\n"]
 
 },
 {
@@ -26,9 +26,11 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-  "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
-  "Designed internal CLI tool adopted by 200+ teams",
-  "Published 2 papers on distributed consensus optimization"]
+    "→Implemented a predictive machine learning model for temperature forecast in turbines",
+    "→Developed a dashboard for real-time operational data analysis with PI System and Python",
+    "→Implemented automated code review in GitLab repositories CI/CD pipelines using Vertex AI",
+    "→Optimized GKE resources using autoscaling strategies ",
+    "Implemented automated code review and unit test generation in GitLab CI/CD pipelines using Vertex AI"]
 
 }];
 
