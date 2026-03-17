@@ -6,9 +6,8 @@ const experience = [
   role: "AI Engineer",
   company: "Attach Group",
   results: [
-    "Implemented code review in CI/CD pipelines using Vertex AI",
-    " ",
-    "\n"
+    "Implemented AI code review in GitLab CI/CD pipelines using Vertex AI",
+    "Optimized GKE resources using autoscaling strategies"
   ]
 },
 {
@@ -17,8 +16,7 @@ const experience = [
   company: "NTT Data",
   results: [
     "Integrated an AI agent with Jira using Azure OpenAI and LangChain for task management automation",
-    "Developed an MCP for Jira integration with LLMs",
-    "\n"
+    "Developed an MCP for Jira integration with LLMs"
   ]
 },
 {
@@ -26,9 +24,8 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "Contributed to Kubernetes autoscaler, reducing cloud costs by 25%",
-    "Designed internal CLI tool adopted by 200+ teams",
-    "\n"
+    "Implemented a predictive machine learning model for temperature forecast in turbines",
+    "Developed a dashboard for real-time operational data analysis with PI System and Python"
   ]
 }];
 
@@ -71,7 +68,7 @@ export function ExperienceSection() {
                 </td>
                 <td className="py-4 align-top">
                   <ul className="space-y-1">
-                    {exp.results.map((r, j) =>
+                    {exp.results.filter(r => r.trim().length > 0).map((r, j) =>
                   <li key={j} className="text-muted-foreground">
                         <span className="text-terminal mr-2">→</span>
                         {r}
