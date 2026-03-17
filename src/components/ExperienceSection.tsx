@@ -68,7 +68,7 @@ export function ExperienceSection() {
                 </td>
                 <td className="py-4 align-top">
                   <ul className="space-y-1">
-                    {exp.results.map((r, j) =>
+                    {exp.results.filter(r => r.trim().length > 0).map((r, j) =>
                   <li key={j} className="text-muted-foreground">
                         <span className="text-terminal mr-2">→</span>
                         {r}
