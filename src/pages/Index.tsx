@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
+import { EducationSection } from "@/components/EducationSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { AwardsSection } from "@/components/AwardsSection";
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <main className="mx-auto max-w-4xl px-6">
         <HeroSection />
+        <EducationSection />
         <ExperienceSection />
         <ProjectsSection />
         <AwardsSection />
