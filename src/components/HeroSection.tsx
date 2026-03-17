@@ -21,7 +21,7 @@ export function HeroSection() {
             Alex Chen
           </h1>
           <p className="text-lg text-terminal mb-6">
-            Senior Software Engineer
+            AI Engineer
           </p>
           <p className="text-sm text-muted-foreground max-w-lg leading-relaxed">
             Previously at <span className="text-foreground">Enel</span> and{" "}
