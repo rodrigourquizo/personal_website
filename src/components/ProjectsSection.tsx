@@ -3,8 +3,8 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "edge-cache",
-    description: "Distributed caching layer for edge computing with sub-ms latency",
+    name: "Credit risk classification with LLMs, ML and AWS",
+    description: "Data labeling using LLMs on Amazon Bedrock and classification model training with AWS SageMaker",
     stack: ["Rust", "Redis", "Cloudflare Workers"],
     url: "#",
     stars: "2.4k",
