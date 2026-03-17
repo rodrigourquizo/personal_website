@@ -24,10 +24,8 @@ export function HeroSection() {
             Senior Software Engineer
           </p>
           <p className="text-sm text-muted-foreground max-w-lg leading-relaxed">
-            Building scalable distributed systems and developer tools.
-            Previously at <span className="text-foreground">Google</span>,{" "}
-            <span className="text-foreground">Stripe</span>, and{" "}
-            <span className="text-foreground">Vercel</span>.
+            Previously at <span className="text-foreground">Enel</span> and{" "}
+            <span className="text-foreground">NTT DATA</span>
           </p>
 
           <div className="mt-8 flex items-center gap-4 text-xs text-muted-foreground">
