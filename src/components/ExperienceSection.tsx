@@ -73,7 +73,7 @@ export function ExperienceSection() {
                   <ul className="space-y-1">
                     {exp.results.map((r, j) =>
                   <li key={j} className="text-muted-foreground">
-                        <span className="text-terminal mr-2">→</span>
+                        {r.trim() && <span className="text-terminal mr-2">→</span>}
                         {r}
                       </li>
                   )}
