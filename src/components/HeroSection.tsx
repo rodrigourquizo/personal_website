@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Github, Linkedin, Instagram } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export function HeroSection() {
