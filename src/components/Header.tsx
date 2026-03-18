@@ -19,6 +19,10 @@ export function Header() {
             projects
           </button>
           <span className="text-border mx-1">/</span>
+          <button onClick={() => scrollTo("publications")} className="hover:text-foreground transition-colors">
+            publications
+          </button>
+          <span className="text-border mx-1">/</span>
           <button onClick={() => scrollTo("awards")} className="hover:text-foreground transition-colors">
             awards
           </button>

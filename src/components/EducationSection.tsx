@@ -2,10 +2,22 @@ import { motion } from "framer-motion";
 
 const education = [
   {
-    period: "2022 — 2026",
-    degree: "Bachelor's in Computer Science",
-    institution: "Your University",
-    details: ["Add your details here"]
+    period: "2025",
+    degree: "Aspire Leaders Program",
+    institution: "Aspire Institute",
+    location: "Online"
+  },
+  {
+    period: "2019 — 2024",
+    degree: "BSc in Electronics Engineering",
+    institution: "PUCP",
+    location: "Lima, Peru"
+  },
+  {
+    period: "2018",
+    degree: "English Course",
+    institution: "Key Educational Travel LTD",
+    location: "London, UK"
   }
 ];
 
@@ -23,7 +35,7 @@ export function EducationSection() {
               <th className="pb-3 pr-8 font-medium">Period</th>
               <th className="pb-3 pr-8 font-medium">Degree</th>
               <th className="pb-3 pr-8 font-medium">Institution</th>
-              <th className="pb-3 font-medium">Details</th>
+              <th className="pb-3 font-medium">Place</th>
             </tr>
           </thead>
           <tbody>
@@ -45,15 +57,8 @@ export function EducationSection() {
                 <td className="py-4 pr-8 align-top text-terminal whitespace-nowrap">
                   {edu.institution}
                 </td>
-                <td className="py-4 align-top">
-                  <ul className="space-y-1">
-                    {edu.details.filter(d => d.trim().length > 0).map((d, j) => (
-                      <li key={j} className="text-muted-foreground">
-                        <span className="text-terminal mr-2">→</span>
-                        {d}
-                      </li>
-                    ))}
-                  </ul>
+                <td className="py-4 align-top text-muted-foreground whitespace-nowrap">
+                  {edu.location}
                 </td>
               </motion.tr>
             ))}

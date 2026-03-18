@@ -4,6 +4,7 @@ import { EducationSection } from "@/components/EducationSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { AwardsSection } from "@/components/AwardsSection";
+import { PublicationsSection } from "@/components/PublicationsSection";
 import { CommandPalette } from "@/components/CommandPalette";
 
 const Index = () => {
@@ -16,9 +17,10 @@ const Index = () => {
         <EducationSection />
         <ExperienceSection />
         <ProjectsSection />
+        <PublicationsSection />
         <AwardsSection />
         <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-          <span className="text-terminal">$</span> echo "Built with conviction, not templates."
+          <span className="text-terminal">$</span> echo "if you can imagine it, you can program it"
         </footer>
       </main>
     </div>

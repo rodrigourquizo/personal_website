@@ -1,13 +1,21 @@
 import { motion } from "framer-motion";
 
 const awards = [
-  { year: "2024", title: "OSS Contributor of the Year", org: "GitHub" },
-  { year: "2023", title: "Best Developer Tool", org: "ProductHunt Golden Kitty" },
-  { year: "2023", title: "Top 100 Engineers", org: "Forbes 30 Under 30" },
-  { year: "2022", title: "Engineering Excellence Award", org: "Stripe Internal" },
-  { year: "2021", title: "Best Paper — Distributed Systems Track", org: "USENIX ATC" },
-  { year: "2019", title: "Peer Bonus (3x recipient)", org: "Google" },
-  { year: "2018", title: "ACM ICPC Regional Finalist", org: "ACM" },
+  { 
+    date: "2025", 
+    title: "Business Builders with Agentic AI Hackathon", 
+    org: "Credicorp"
+  },
+  { 
+    date: "2025", 
+    title: "Innovation with the Client", 
+    org: "NTT DATA"
+  },
+  { 
+    date: "2023", 
+    title: "Innova & Business Fest Hackathon", 
+    org: "CIDE PUCP"  
+  },
 ];
 
 export function AwardsSection() {
@@ -17,25 +25,29 @@ export function AwardsSection() {
         ~/awards
       </h2>
 
-      <div className="space-y-0">
+      <div className="space-y-3">
         {awards.map((award, i) => (
           <motion.div
             key={i}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 5 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.05 }}
-            className="group flex items-baseline gap-6 border-b border-border py-3 bg-surface-hover transition-colors"
+            transition={{ delay: i * 0.1 }}
+            className="group grid grid-cols-1 md:grid-cols-[60px_1fr] gap-2 md:gap-4 border-b border-border pb-2 transition-colors"
           >
-            <span className="text-xs text-muted-foreground tabular-nums w-12 shrink-0">
-              {award.year}
-            </span>
-            <span className="text-sm text-foreground flex-1">
-              {award.title}
-            </span>
-            <span className="text-xs text-muted-foreground text-right">
-              {award.org}
-            </span>
+            <div className="text-xs text-muted-foreground tabular-nums">
+              {award.date}
+            </div>
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <span className="text-sm font-medium text-foreground">
+                  {award.title}
+                </span>
+                <span className="text-xs text-terminal">
+                  {award.org}
+                </span>
+              </div>
+            </div>
           </motion.div>
         ))}
       </div>

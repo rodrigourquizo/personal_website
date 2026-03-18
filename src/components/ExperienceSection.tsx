@@ -6,8 +6,9 @@ const experience = [
   role: "AI Engineer",
   company: "Attach Group",
   results: [
-    "Implemented AI code review in GitLab CI/CD pipelines using Vertex AI",
-    "Optimized GKE resources using autoscaling strategies"
+    "Implemented AI code review and unit test generation in GitLab CI/CD pipelines using Google ADK, Vertex AI and Python",
+    "Automated data workflows by integrating OpenClaw with Vertex AI, Gemini, BigQuery and Google Sheets",
+    "Optimized GKE resource utilization through autoscaling strategies"
   ]
 },
 {
@@ -15,8 +16,8 @@ const experience = [
   role: "Software Engineer Intern",
   company: "NTT Data",
   results: [
-    "Integrated an AI agent with Jira using Azure OpenAI and LangChain for task management automation",
-    "Developed an MCP for Jira integration with LLMs"
+    "Integrated an AI agent with Jira using Azure OpenAI, LangChain and an MCP for task management automation",
+    "Developed an MCP for Figma, enabling an AI agent to generate frontend code from UX designs"
   ]
 },
 {
@@ -24,10 +25,20 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "Implemented a predictive machine learning model for temperature forecast in turbines",
+    "Implemented a machine learning model for temperature forecast in turbines",
     "Developed a dashboard for real-time operational data analysis with PI System and Python"
   ]
-}];
+},
+{
+  period: "2024",
+  role: "Teaching Assistant",
+  company: "PUCP",
+  results: [
+    "Provided advising and support to students on software engineering, data science, and Python topics",
+  ]
+},
+
+];
 
 
 export function ExperienceSection() {

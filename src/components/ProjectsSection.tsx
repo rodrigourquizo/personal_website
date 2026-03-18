@@ -4,45 +4,21 @@ import { ExternalLink } from "lucide-react";
 const projects = [
   {
     name: "Credit risk classification with LLMs, ML and AWS",
-    description: "Data labeling using LLMs on Amazon Bedrock and classification model training with AWS SageMaker",
-    stack: ["Rust", "Redis", "Cloudflare Workers"],
-    url: "#",
-    stars: "2.4k",
+    description: "Data labeling using LLMs from Amazon Bedrock and a classification model training and deployment with AWS SageMaker",
+    stack: ["Python", "AWS SageMaker", "Amazon Bedrock"],
+    url: "https://github.com/rodrigourquizo/Fraud_Detection_AI"
   },
   {
-    name: "trpc-codegen",
-    description: "Automatic TypeScript client generation from tRPC routers",
-    stack: ["TypeScript", "tRPC", "Zod"],
-    url: "#",
-    stars: "1.8k",
+    name: "HAWKEYE",
+    description: "AI surveillance system for person detection using drones for archaeological site preservation",
+    stack: ["Python", "OpenCV", "YOLOv8", "Telegram API"],
+    url: "https://github.com/rodrigourquizo/HAWKEYE"
   },
   {
-    name: "k8s-autotune",
-    description: "ML-powered resource optimization for Kubernetes clusters",
-    stack: ["Go", "Python", "Kubernetes"],
-    url: "#",
-    stars: "950",
-  },
-  {
-    name: "pgstream",
-    description: "Real-time PostgreSQL change data capture with WebSocket support",
-    stack: ["Rust", "PostgreSQL", "WebSockets"],
-    url: "#",
-    stars: "3.1k",
-  },
-  {
-    name: "dotenv-vault",
-    description: "Encrypted environment variable management for teams",
-    stack: ["Go", "AES-256", "CLI"],
-    url: "#",
-    stars: "720",
-  },
-  {
-    name: "bench-ci",
-    description: "Continuous benchmarking integrated into your CI/CD pipeline",
-    stack: ["Rust", "GitHub Actions", "Charts"],
-    url: "#",
-    stars: "1.1k",
+    name: "KRONOS",
+    description: "AI project for predictive analysis in industrial systems, accepted into the Santander X Explorer entrepreneurship program.",
+    stack: ["Python", "Azure ML"],
+    url: "#"
   },
 ];
 
@@ -84,9 +60,6 @@ export function ProjectsSection() {
                   </span>
                 ))}
               </div>
-              <span className="text-[10px] text-muted-foreground">
-                ★ {project.stars}
-              </span>
             </div>
           </motion.a>
         ))}
