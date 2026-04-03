@@ -36,10 +36,10 @@ export function HeroSection() {
               <a href="https://github.com/rodrigourquizo" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
                 <Github size={18} />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
+              <a href="https://www.linkedin.com/in/rodrigo-urquizo-ab7a3220b/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
                 <Linkedin size={18} />
               </a>
-              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
+              <a href="https://www.instagram.com/dr_rodh/" target="_blank" rel="noopener noreferrer" className="hover:text-terminal transition-colors">
                 <Instagram size={18} />
               </a>
             </div>
