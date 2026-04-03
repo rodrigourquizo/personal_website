@@ -3,12 +3,6 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "Credit risk classification with LLMs, ML and AWS",
-    description: "Data labeling using LLMs from Amazon Bedrock and a classification model training and deployment with AWS SageMaker",
-    stack: ["Python", "AWS SageMaker", "Amazon Bedrock"],
-    url: "https://github.com/rodrigourquizo/Fraud_Detection_AI"
-  },
-  {
     name: "HAWKEYE",
     description: "AI surveillance system for person detection using drones for archaeological site preservation",
     stack: ["Python", "OpenCV", "YOLOv8", "Telegram API"],
@@ -20,6 +14,12 @@ const projects = [
     stack: ["Python", "Azure ML"],
     url: "#"
   },
+  {
+    name: "Credit risk classification with LLMs, ML and AWS",
+    description: "Data labeling using LLMs from Amazon Bedrock and a classification model training and deployment with AWS SageMaker",
+    stack: ["Python", "AWS SageMaker", "Amazon Bedrock"],
+    url: "https://github.com/rodrigourquizo/Fraud_Detection_AI"
+  }
 ];
 
 export function ProjectsSection() {

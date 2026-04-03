@@ -6,9 +6,8 @@ const experience = [
   role: "AI Engineer",
   company: "Attach Group",
   results: [
-    "Implemented AI code review and unit test generation in GitLab CI/CD pipelines using Google ADK, Vertex AI and Python",
-    "Automated data workflows by integrating OpenClaw with Vertex AI, Gemini, BigQuery and Google Sheets",
-    "Optimized GKE resource utilization through autoscaling strategies"
+    "Developed an AI agent using Google Vertex AI and LLMs such as Gemini 2.5, integrated into a GitLab CI/CD pipeline for code review and automatic unit test generation",
+    "Automated workflows through the integration of an OpenClaw agent with Vertex AI models for tasks with BigQuery and Excel",
   ]
 },
 {
@@ -16,7 +15,7 @@ const experience = [
   role: "Software Engineer Intern",
   company: "NTT Data",
   results: [
-    "Integrated an AI agent with Jira using Azure OpenAI, LangChain and an MCP for task management automation",
+    "Developed an AI agent for Jira using Azure OpenAI, LangChain and an MCP for task management automation",
     "Developed an MCP for Figma, enabling an AI agent to generate frontend code from UX designs"
   ]
 },
@@ -25,8 +24,8 @@ const experience = [
   role: "Python Developer Intern",
   company: "Enel",
   results: [
-    "Implemented a machine learning model for temperature forecast in turbines",
-    "Developed a dashboard for real-time operational data analysis with PI System and Python"
+    "Implemented a machine learning model for time series forecasting to predict equipment failures",
+    "Developed a dashboard for real-time industrial data analysis with PI System and Python"
   ]
 },
 {
