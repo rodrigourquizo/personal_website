@@ -26,7 +26,7 @@ export function HeroSection() {
             AI Engineer
           </p>
           <p className="text-sm text-muted-foreground max-w-lg leading-relaxed">
-            Big fan of being busy as hell.<br />
+            Big fan of doing difficult things<br />
             Previously at <span className="text-foreground">Enel</span> and{" "}
             <span className="text-foreground">NTT DATA</span>.
           </p>
